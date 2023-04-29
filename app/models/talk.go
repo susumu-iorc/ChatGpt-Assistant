@@ -4,7 +4,8 @@ import "gorm.io/gorm"
 
 type Talk struct {
 	gorm.Model
-	TalkThread    string
-	Content       string
-	PrevContentId int
+
+	TalkThreadID uint
+	Talker       string
+	Content      string
 }

@@ -11,6 +11,7 @@ func main() {
 	// fmt.Println(Const.DatabasePass)
 	// fmt.Println(Const.Databasepass)
 	db := database.Migrate
+	// database.Seed()
 	db()
 
 	server.Router()
