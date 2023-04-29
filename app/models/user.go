@@ -5,7 +5,8 @@ import "gorm.io/gorm"
 type User struct {
 	gorm.Model
 
-	Name     string
-	Age      int
-	IsActive bool
+	Name       string
+	Type       string
+	TalkThread []TalkThread
+	Client     []Client
 }

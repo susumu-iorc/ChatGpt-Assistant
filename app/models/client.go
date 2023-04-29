@@ -2,9 +2,9 @@ package models
 
 import "gorm.io/gorm"
 
-type TalkThread struct {
+type Client struct {
 	gorm.Model
 
-	Token  string
 	UserID uint
+	Client string
 }

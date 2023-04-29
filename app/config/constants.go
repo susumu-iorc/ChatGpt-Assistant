@@ -20,3 +20,5 @@ var DatabasePass = GetConst("DATABASE_PASS")
 var DatabaseHost = GetConst("DATABASE_HOST")
 var DatabasePort = GetConst("DATABASE_PORT")
 var DatabaseName = GetConst("DATABASE_NAME")
+
+var OpenAIApiKey = GetConst("OPENAI_API_KEY")
